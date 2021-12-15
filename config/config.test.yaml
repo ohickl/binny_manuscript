@@ -1,0 +1,19 @@
+mem:
+  big_mem_avail: TRUE
+  normal_mem_per_core_gb: 8
+  big_mem_per_core_gb: 36
+tmp_dir: tmp
+raws:
+  Contigs: "/data/idiv_biu/heintzbu/EXTDATA/CAMI/strainMadness/assembly/strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta"
+  Alignment_metagenomics: "/data/idiv_biu/heintzbu/EXTDATA/CAMI/strainMadness/mapping/strmgCAMI2_short_read_pooled_gold_standard_assembly.sample_0.sorted.bam"
+  Contig_depth: ""
+sample: test
+outputdir: "test_output4"
+db_path: "database"
+binning:
+  binny:
+    kmers: '2,3,4' # Input a list, e.g. '2,3,4'
+    cutoff: 1000
+  filtering:
+    completeness: 70
+    purity: 90

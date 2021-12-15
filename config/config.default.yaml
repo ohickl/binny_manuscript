@@ -1,0 +1,19 @@
+mem:
+  big_mem_avail: FALSE
+  normal_mem_per_core_gb: 4
+  big_mem_per_core_gb: 26
+tmp_dir: tmp
+raws:
+  Contigs: ""
+  Alignment_metagenomics: ""
+  Contig_depth: ""
+sample: test
+outputdir: "test"
+db_path: "../db"
+binning:
+  binny:
+    kmers: '2,3,4' # Input a list, e.g. '2,3,4'
+    cutoff: 1000
+  filtering:
+    completeness: 70
+    purity: 90

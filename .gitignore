@@ -1,0 +1,12 @@
+conda/
+.*
+*stderr
+*stdout
+database/
+binny_*
+binny
+moretests/
+workflow/bin/mantis/
+workflow/scripts/__pycache__/
+test_*
+!.gitignore

@@ -15,5 +15,5 @@ binning:
     kmers: '2,3,4' # Input a list, e.g. '2,3,4'
     cutoff: 1000
   filtering:
-    completeness: 70
-    purity: 90
+    completeness: 80
+    purity: 85

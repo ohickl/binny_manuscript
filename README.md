@@ -5,7 +5,7 @@ Repository for code used in the manuscript.
 
 To get the version used in the manuscript, run
 ```
-git clone https://github.com/a-h-b/binny.git --branch v2.1.beta50-36
+git clone https://github.com/a-h-b/binny.git --branch v2.2.15
 ```
 and follow the instructions at https://github.com/a-h-b/binny/.
 
